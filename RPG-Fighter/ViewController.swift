@@ -41,7 +41,9 @@ class ViewController: UIViewController {
         } else {
             enemy = DevilWizard(startingHp: 60, attackPwr: 15)
         }
+        enemyImg.hidden = false
     }
+    
 
     @IBAction func onChestTapped(sender: UIButton) {
         chestBtn.hidden = true
